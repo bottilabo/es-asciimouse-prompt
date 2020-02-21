@@ -1,7 +1,7 @@
 ### es-asciimouse-prompt
 > Powerline style kawaii ASCIImouse prompt for fish shell.
 
-![screenshot](image/es-asciimouse-prompt.png)
+![screenshot](es-asciimouse-prompt.png)
 
 # ASCIImouse
 - ASCIImouse is created by ROM子 (twitter @riv_mk)
