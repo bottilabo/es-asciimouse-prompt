@@ -10,6 +10,7 @@
 
 set -g CMD_DURATION 0
 
+. ./es-asciimouse.fish
 
 function _UserSymbol
   if test (id -u $USER) -eq 0
