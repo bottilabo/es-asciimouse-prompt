@@ -13,11 +13,6 @@
 
 # Install
  
-## fisher
-```
-fisher add bottilabo/es-asciimouse-prompt
-```
-
 ## fundle
 add below code to .config/fish/config.fish
 ```
@@ -26,6 +21,9 @@ if not functions -q fundle; eval (curl -sfL https://git.io/fundle-install); end
 fundle plugin 'bottilabo/es-asciimouse-prompt'
 fundle init
 ```
+
+## manual install
+just copy files inner functions dir into ~/.config/fish/functions/
 
 # License, Copyright, Information etc..
 - made by Bottilabo (twitter @bottilabo)

@@ -1,4 +1,5 @@
-
+function __init_es_asciimouse_prompt
+    
 # Global variables that affect how left and right prompts look like
 set -g symbols_style                   'symbols'
 set -g theme_display_git_ahead_verbose  yes
@@ -23,14 +24,13 @@ set __fish_git_prompt_char_upstream_ahead '+'
 set __fish_git_prompt_char_upstream_behind '-'
 
 # powerline
-set pwln1 50c0f0
-set pwln2 3080e0
-set pwln3 2050c0
-#set -l pwln4 (echo $fish_color_error | sed -e 's/\([^ \n]*\)[^ \n]*.*$/\1/')
-set pwln4 e08030
+set -g pwln1 50c0f0
+set -g pwln2 3080e0
+set -g pwln3 2050c0
+set -g pwln4 e08030
 
-set pwlndiv1a '' ""
-set pwlndiv1b '' ""
+set -g pwlndiv1a '' ""
+set -g pwlndiv1b '' ""
 
 #echo \Uf00a \ue709 \ue791 \ue739 \uF0DD \UF020 \UF01F \UF07B \UF015 \UF00C \UF00B \UF06B \UF06C \UF06E \UF091 \UF02C \UF026 \UF06D \UF0CF \UF03A \UF03D \UF081 \UF02A \UE606 \UE73C      #\UF005 bugs in fish
 set -g ORANGE                     FF8C00        #FF8C00 dark orange, FFA500 orange, another one fa0 o
@@ -69,3 +69,5 @@ set -g ICON_JOBS                  \U2699" "     # ⚙
 set -g ICON_VIM                   \UE7C5" "     # 
 set -g ICON_BRANCH                \UE725 
 set -g ICON_RANGER                \UFB44
+
+end
