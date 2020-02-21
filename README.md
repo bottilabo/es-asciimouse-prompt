@@ -29,5 +29,5 @@ fundle init
 
 # License, Copyright, Information etc..
 - made by Bottilabo (twitter @bottilabo)
-- es-ascii-mouse is based on [es theme](https://github.com/oh-my-fish/theme-es)
-- MIT License 
+- es-asciimouse-prompt is based on [es theme](https://github.com/oh-my-fish/theme-es)
+- [MIT License](LICENSE) 
