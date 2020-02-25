@@ -12,7 +12,12 @@
 - Nerd fonts https://www.nerdfonts.com/
 
 # Install
- 
+
+## fisher
+```
+fisher add bottilabo/es-asciimouse-prompt
+```
+
 ## fundle
 add below code to .config/fish/config.fish
 ```
